@@ -39,7 +39,7 @@ app.use("/", require("./src/routes/index"));
 app.all("/", (req, res) =>
   res.send({
     error: false,
-    message: "Welcome to Hotel By D.Z.E.L.",
+    message: "Welcome to Hotel By UYSALCORP",
     docs: {
       swagger: "/documents/swagger",
       redoc: "/documents/redoc",
