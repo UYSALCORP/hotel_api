@@ -17,6 +17,7 @@ module.exports = {
                 </ul>
             `
         */
+
     const result = await res.getModelList(Room);
     res.status(200).send({
       error: false,
@@ -56,7 +57,7 @@ module.exports = {
       result,
     });
   },
-  deleteUser: async (req, res) => {
+  deleteRoom: async (req, res) => {
     /* 
             #swagger.tags = ['Rooms']
             #swagger.summary = 'Delete Rooms'
